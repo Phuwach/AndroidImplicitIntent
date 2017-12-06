@@ -11,31 +11,36 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="Intent 1"
+        android:text="GOOGLE Photos"
+        android:textAlignment="textStart"
         android:id="@+id/btn_intent_1"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="Intent 2"
+        android:text="PHONE CALL"
+        android:textAlignment="textStart"
         android:id="@+id/btn_intent_2"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="Intent 3"
+        android:text="GOOGLE CHROME"
+        android:textAlignment="textStart"
         android:id="@+id/btn_intent_3"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="Intent 4"
+        android:text="CAMERA"
+        android:textAlignment="textStart"
         android:id="@+id/btn_intent_4"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="Intent 5"
+        android:text="VOICE COMMAND"
+        android:textAlignment="textStart"
         android:id="@+id/btn_intent_5"/>
 
 </LinearLayout>

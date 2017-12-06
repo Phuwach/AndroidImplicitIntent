@@ -38,18 +38,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.btn_intent_2:
-                // TODO: ???
+                // TODO: Dial (Whooh, I can do it without request permission ???)
+                intent.setAction(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:0898768890"));
+                startActivity(intent);
                 break;
             case R.id.btn_intent_3:
                 // TODO: ???
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.cpe.eng.cmu.ac.th"));
+                startActivity(intent);
                 break;
             case R.id.btn_intent_4:
                 // TODO: ???
+                intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivity(intent);
                 break;
             case R.id.btn_intent_5:
                 // TODO: ???
+                intent.setAction(Intent.ACTION_VOICE_COMMAND);
+                startActivity(intent);
                 break;
-
         }
     }
 }
